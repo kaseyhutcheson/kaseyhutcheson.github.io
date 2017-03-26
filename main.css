@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	/*locking in the page to just the screen they see*/
+	overflow: none;
+	/*nothing to scroll down to*/
+	padding: 0px;
+	margin: 0px;
+	font-family: "Roboto";
+	background-color: rgb(224, 235, 252);
+	/*offwhite: (249, 248, 247)*/
+}
+div {
+	display: inline-block;
+	/*make it only take up the space it needs, not the whole space*/
+	margin-right: -4px;
+	/*whoever came up with it put a 4px space so you'll always need this to remove the space*/
+	vertical-align: middle;
+	/*aligning two top divs in the middle of each other*/
+}
+div#top-left {
+	/*refer to ID's with #, no space*/
+	width: 50%;
+	min-height: 60%;
+	background-image: url('IMG_4590.jpg');  
+	background-position: center;  
+	background-size: cover; 
+	 /*makes sure the image covers the space*/
+	background-repeat: no-repeat;
+	/*turns off the repeat function*/
+}
+
+div#top-right {
+	width: 50%;
+	min-height: 60%;
+	padding: 5% 8%;
+	/*padding v.margin
+	padding means space on its inside (4-top, left, bottom, right, 2-top/bottom, left/right, or 1-top bottom left and right is same number)
+	margin means space on its outside (same numbers)*/
+	color: rgb(5, 28, 63);
+}
+
+div#bottom {
+	width: 100%;
+	min-height: 40%;
+	padding: 3% 20%;
+	color: rgb(220,222,224);
+	background-color: rgb(2, 31, 76);
+	/*black (0,0,0) white (255,255,255)*/
+}
+
+div#bottom-left {
+	width: 50%;
+	vertical-align: top;
+}
+
+div#bottom-right {
+	width: 30%;
+	margin-left: 20%
+	/*adds padding to create space*/
+	vertical-align:top;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	/*could also say 700 (the one we selected from goolge fonts)*/
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 35px;
+	margin-bottom: 15px;
+	/*same thing as margin: 0 0 15px 0*/
+
+}
+
+p {
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 1.4;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(3,203,235);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
